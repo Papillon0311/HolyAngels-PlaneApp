@@ -8,4 +8,3 @@ error_reporting(1);
 $connect = new mysqli('localhost', 'root', '', 'planeapp');
 
 /* Set the desired charset after establishing a connection */
-$connect->set_charset('utf8mb4');
