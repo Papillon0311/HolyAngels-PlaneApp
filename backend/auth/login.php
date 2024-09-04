@@ -1,6 +1,7 @@
 <?php
+session_start();
 
-include '../resources/dbconfig.php';
+require_once '../resources/dbconfig.php';
 
 $username = filter_input(INPUT_POST, 'username');
 $password = filter_input(INPUT_POST, 'password');
